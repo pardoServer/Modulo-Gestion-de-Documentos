@@ -1,0 +1,29 @@
+{
+  "company_id": "b4cbc081-423f-4f4b-84a7-706fb6a36f2f",
+  
+  "entity": {"entity_type":"vehicle","entity_id":"98c8d70e-568c-407b-8199-bf9ac96a003c"},
+  
+  "document": 
+  	{"name":"soat.pdf",
+  	"mime_type":"application/pdf",
+  	"size_bytes":123,
+  	"bucket_key":"companies/b4cbc081-423f-4f4b-84a7-706fb6a36f2f/vehicles/v98c8d70e-568c-407b-8199-bf9ac96a003c/soat.pdf"},
+  "validation_flow":
+  	{"enabled": true,
+  	 "steps":
+  	 	[{"order":1,"approver_user_id":"7cfb76eb-e588-4937-9436-60f333ac3d8d"},
+  	 	 {"order":2,"approver_user_id":"ef45f9c8-e101-4f04-8656-2e1b5c116de9"}]}
+ }
+ 
+ 
+ 
+{ "actor_user_id": "7cfb76eb-e588-4937-9436-60f333ac3d8d", "reason": "Cumple requisitos." }
+ 
+{ "actor_user_id": "ef45f9c8-e101-4f04-8656-2e1b5c116de9", "reason": "Documento ilegible." }
+ 
+{ "actor_user_id": "1b18415a-a59a-429f-b068-f589115bcd88", "reason": "Cumple requisitos." }
+ 
+ 
+
+ 
+ 
